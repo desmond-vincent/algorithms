@@ -1,9 +1,6 @@
 package org.algorithms;
 
-public class TwoSum {
-    int [] arr;
-    int target;
-
+public record TwoSum(int[] arr, int target) {
     public TwoSum(int[] arr, int target) {
         this.arr = arr;
         this.target = target;
@@ -19,7 +16,7 @@ public class TwoSum {
                 left++;
             } else if (sum > target) {
                 right--;
-            }else {
+            } else {
                 return "Position: " + left + "," + right + " | Value: " + arr[left] + "," + arr[right] + " | Target: " + target;
             }
         }
