@@ -8,11 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sliding-window" />
         <module name="two-pointers" />
+        <module name="webscapper" />
+        <module name="fast-slow-pointers" />
         <module name="binary-search" />
         <module name="breadth-first-search" />
         <module name="depth-first-search" />
-        <module name="fast-slow-pointers" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JSOUP" target="1.5" />
+      <module name="jsoup" target="25" />
+    </bytecodeTargetLevel>
   </component>
 </project>

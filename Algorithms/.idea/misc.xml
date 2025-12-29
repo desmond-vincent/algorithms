@@ -16,7 +16,14 @@
         <option value="$PROJECT_DIR$/Binary-Search/pom.xml" />
         <option value="$PROJECT_DIR$/Depth-First-Search/pom.xml" />
         <option value="$PROJECT_DIR$/Breadth-First-Search/pom.xml" />
+        <option value="$PROJECT_DIR$/../JSOUP/pom.xml" />
+        <option value="$PROJECT_DIR$/../WebScapper/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../JSOUP/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-25" project-jdk-type="JavaSDK">
